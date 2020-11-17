@@ -13,11 +13,10 @@ body{
     height: 625px;
     background-image: url(images/1_pblr2h.png);
     position: absolute;
-    bottom: -100%;
+    bottom: -10px;
     left: 30%;
     animation: anim 2s forwards,anim2 3s forwards 3s;
 }
-
 @keyframes anim {
     from{
         bottom: -100%;
@@ -44,12 +43,12 @@ body{
     width: 530px;
     height: 625px;
     background-image: url(images/2_meanqt.png);
-    left: 0px;
+    /* left: 0px; */
     z-index: -1;
 
 }
 
-#box2{
+/* #box2{
     width: auto;
     height: auto;
     color: white;
@@ -107,6 +106,7 @@ body{
 
 
 
+
 @keyframes anim3{
     from{
         left: -100%;
@@ -122,4 +122,4 @@ body{
     to{
         top: 0%;
     }
-}
+} */
